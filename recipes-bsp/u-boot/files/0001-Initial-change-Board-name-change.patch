@@ -1,0 +1,24 @@
+From 922044b39fe1ae01e6383fcb427c6d58539cc7ab Mon Sep 17 00:00:00 2001
+From: bibimainetti <roberto.mainetti@megger.com>
+Date: Tue, 5 Apr 2016 11:57:22 +0100
+Subject: [PATCH] Initial change: Board name change
+
+---
+ board/freescale/mx6sabresd/mx6sabresd.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/board/freescale/mx6sabresd/mx6sabresd.c b/board/freescale/mx6sabresd/mx6sabresd.c
+index 12d8c56..b3a3b50 100644
+--- a/board/freescale/mx6sabresd/mx6sabresd.c
++++ b/board/freescale/mx6sabresd/mx6sabresd.c
+@@ -502,6 +502,6 @@ int board_late_init(void)
+ 
+ int checkboard(void)
+ {
+-	puts("Board: MX6-SabreSD\n");
++	puts("Board: MX6-m300\n");
+ 	return 0;
+ }
+-- 
+1.9.1
+
